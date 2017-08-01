@@ -16,7 +16,7 @@ ReactDOM.render(
 
       <Route path="/" component={SignUpContainer} >
         <Route path="rent" component={Rent}/>
-        <Route path="payment" component={BankInfo}/>
+        <Route path="bankinfo" component={BankInfo}/>
         <Route path="tenant" component={Tenant}/>
         <Route path="signupsuccess" component={SignUpSuccess}/>
         <IndexRoute component={Property} />

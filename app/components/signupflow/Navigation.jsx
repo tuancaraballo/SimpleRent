@@ -1,5 +1,7 @@
 var React = require('react');
 
+// <IndexLink to='/' activeClassName="active" activeStyle={{fontWeight: 'bold'}}>
+var {Link, IndexLink} = require('react-router');
 
 var activeCircle = {
   "background": "#228bed",
@@ -48,22 +50,27 @@ var Navigation = React.createClass({
 
             {/* --- Property --- */}
             <div className="stepwizard-step">
-              <button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', propertyState)}>1</button>
+              <IndexLink to='/' activeClassName="active" activeStyle={{fontWeight: 'bold'}} className="btn btn-link btn-circle" style={this.handleColors('circle', propertyState)}> 1 </IndexLink>
+              {/*}<button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', propertyState)}>1</button>*/}
               <p style={this.handleColors('step', propertyState)}>Property</p>
             </div>
             {/* --- Tenant --- */}
             <div className="stepwizard-step">
-              <button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', tenantState)} ><b>2</b></button>
-              <p style={this.handleColors('step', tenantState)}>Tenant</p>
+              <Link to='/tenant' activeClassName="active" activeStyle={{fontWeight: 'bold'}} className="btn btn-link btn-circle" style={this.handleColors('circle', tenantState)}> 2 </Link>
+            {/*  <button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', tenantState)} ><b>2</b></button>*/}
+
+            <p style={this.handleColors('step', tenantState)}>Tenant</p>
             </div>
             {/* --- Rent --- */}
             <div className="stepwizard-step">
-              <button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', rentState)} >3</button>
+                <Link to='/rent' activeClassName="active" activeStyle={{fontWeight: 'bold'}} className="btn btn-link btn-circle" style={this.handleColors('circle', rentState)}> 3 </Link>
+              {/*}<button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', rentState)} >3</button> */}
               <p style={this.handleColors('step', rentState)}>Rent</p>
             </div>
             {/* --- Bank Info --- */}
             <div className="stepwizard-step">
-              <button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', bankState)}>4</button>
+              <Link to='/bankinfo' activeClassName="active" activeStyle={{fontWeight: 'bold'}} className="btn btn-link btn-circle" style={this.handleColors('circle', bankState)}> 4 </Link>
+              {/*<button type="button" className="btn btn-link btn-circle" style={this.handleColors('circle', bankState)}>4</button> */}
               <p style={this.handleColors('step', bankState)}>Bank Info</p>
             </div>
 

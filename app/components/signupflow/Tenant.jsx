@@ -40,17 +40,17 @@ var Tenant = React.createClass({
       <form className="sign-up form-style" onSubmit={this.onFormSubmit}>
 
           <div className="form-group sign-up-group">
-            <input className="form-control text-in input-style" type="text" ref="tenantFirst"/>
+            <input className="form-control text-in input-style" type="text" ref="tenantFirst" placeholder="ex: Leland"/>
             <span className="label label-default form-label input-label">Tenant's First Name</span>
           </div>
 
           <div className="form-group sign-up-group">
-            <input className="form-control text-in input-style" type="text" ref="tenantLast"/>
+            <input className="form-control text-in input-style" type="text" ref="tenantLast" placeholder="ex: Stanford"/>
             <span className="label label-default form-label input-label">Tenant's Last Name</span>
           </div>
 
           <div className="form-group sign-up-group">
-            <input className="form-control text-in input-style" type="text" ref="tenantEmail"/>
+            <input className="form-control text-in input-style" type="text" ref="tenantEmail" placeholder="ex: goCardinals@stanford.edu"/>
             <span className="label label-default form-label input-label">Tenant's Email</span>
           </div>
           <button className="btn btn-link btn-sm pull-right next-button " type="submit" >NEXT </button>

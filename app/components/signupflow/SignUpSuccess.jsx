@@ -27,12 +27,3 @@ var SignUpSuccess = React.createClass({
 });
 
 module.exports = SignUpSuccess;
-
-// <br><br> <h2 style={successColor}>Success</h2>
-// <img src="http://osmhotels.com//assets/check-true.jpg"/>
-//
-//
-// <h3>Dear, Landlord</h3>
-// <p style={textStyle}>Thank you for registering. Way to go!.We have sent you an email "landlord@gmail.com" with your details
-//   Please go to your above email now and login.</p>
-// <a href="" className="btn btn-success">     Log in      </a>

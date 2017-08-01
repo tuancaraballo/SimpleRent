@@ -25,7 +25,7 @@ var Rent = React.createClass({
 		if (monthlyRent.value.length > 0 &&
         deposit.value.length > 0) {
 			 this.props.onChange('rent', info);
-			 window.location.hash = '#/payment';
+			 window.location.hash = '#/bankinfo';
 		}else{
       // TODO: through an alert here or a warning
     }
