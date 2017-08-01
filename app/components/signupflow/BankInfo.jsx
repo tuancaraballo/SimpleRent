@@ -15,7 +15,7 @@ var BankInfo = React.createClass({
     var info = {
       "bankAccount": bankAccount.value,
       "routingNumber" : routingNumber.value,
-      "CurrentPage": "payment",
+      "NextPage": "signupsuccess",
     };
 
     console.log(info);

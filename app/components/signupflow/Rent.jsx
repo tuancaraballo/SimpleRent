@@ -17,7 +17,7 @@ var Rent = React.createClass({
 			"monthlyRent" : monthlyRent.value,
 			"deposit" : deposit.value,
       "isDepositPaid": isDepositPaid,
-			"CurrentPage": "rent"
+			"NextPage": "bankinfo"
 		};
 
     console.log(info);

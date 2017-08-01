@@ -59,7 +59,7 @@ var SignUpContainer = React.createClass({
         this.setState({
           addr1: newValues.addr1,
           addr2: newValues.addr2,
-          CurrentPage: newValues.CurrentPage,
+          CurrentPage: newValues.NextPage,
           property_state: true,
         });
         break;
@@ -68,7 +68,7 @@ var SignUpContainer = React.createClass({
           firstName: newValues.firstName,
           lastName: newValues.lastName,
           email: newValues.email,
-          CurrentPage: newValues.CurrentPage,
+          CurrentPage: newValues.NextPage,
           tenant_state: true,
         });
         break;
@@ -77,7 +77,7 @@ var SignUpContainer = React.createClass({
           monthlyRent: newValues.monthlyRent,
           deposit: newValues.deposit,
           dueDate: newValues.date,
-          CurrentPage: newValues.CurrentPage,
+          CurrentPage: newValues.NextPage,
           rent_state:true,
         });
         break;
@@ -86,6 +86,7 @@ var SignUpContainer = React.createClass({
             bankAccount: newValues.bankAccount,
             routingNumber: newValues.routingNumber,
             bank_state:true,
+            CurrentPage: newValues.NextPage,
           });
       default:
         break;
@@ -102,7 +103,7 @@ var SignUpContainer = React.createClass({
         <div className="container">
           <div className= "row ">
               <div className="col-md-8 col-md-offset-1">
-                  <Navigation tenantState={tenant_state} propertyState = {property_state} rentState={rent_state} bankState={bank_state}/>
+                  <Navigation tenantState={tenant_state} propertyState = {property_state} rentState={rent_state} bankState={bank_state} CurrentPage={CurrentPage}/>
               </div>
           </div>
           <div className= "row ">

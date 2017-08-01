@@ -21,7 +21,7 @@ var Property = React.createClass({
 		var info = {
 			"addr1" : this.refs.addr1.value,
 			"addr2" : this.refs.addr2.value,
-			"CurrentPage": "tenant",
+			"NextPage": "tenant",
 		}
 		if (this.refs.addr1.value.length > 0) {
 			 //this.refs.addr1.value = ''; // --> TODO: add this if needed

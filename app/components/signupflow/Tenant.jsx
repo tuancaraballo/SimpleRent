@@ -15,7 +15,7 @@ var Tenant = React.createClass({
 			"firstName ": tenantFirst.value,
 			"lastName" : tenantLast.value,
       "email": tenantEmail.value,
-			"CurrentPage": "tenant",
+			"NextPage": "rent",
 		}
 
     console.log(info);
