@@ -44,7 +44,7 @@ var SignUpContainer = React.createClass({
       dueDate: '',
       bankAccount: undefined,
       routingNumber: undefined,
-      property_state: true,
+      property_state: false,
       tenant_state: false,
       rent_state: false,
       bank_state: false,
