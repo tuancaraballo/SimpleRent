@@ -1,0 +1,80 @@
+
+/* ----- TOOLBAR ---- */
+.navBar-padding {
+  padding: 0;
+}
+
+.logo-format {
+	font-weight:normal;
+	color:rgb(34,139,237);
+	font-family:Armata, sans-serif;
+}
+
+.space-from-toolbar {
+	margin-top: 7em;
+  /*display:inline-block;*/
+  text-align:left;
+}
+
+
+/* -- for placeholders in the screens to make them italics -- */
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+
+/*  -----  REGISTRATION SCREENS ---- */
+
+.title-style {
+  font-family:Arimo, sans-serif;
+  font-weight:bold;
+  margin-right:0;
+  padding-left:0px;
+  margin-left:0;
+  /*float:none;*/
+}
+
+.description  {
+  font-family:Arimo, sans-serif;
+  font-size: 1.2em;
+  margin-top:20px;
+
+  /*width:39em;*/
+  margin:0 auto;
+  margin-right:0;
+  padding-left:0px;
+  margin-left:0;
+  padding-top:12px;
+  width: 555px;
+}
+
+.property-form{
+	/*margin:0 auto;
+	margin-top: 1em;
+	display:table;*/
+
+  margin-top:0px;
+  margin:0 auto;
+  display:table;
+}
+
+.input-style {
+	width: 555px;
+}
+
+.input-label {
+ font-family:Arimo, sans-serif;
+}
+
+.form-label {
+	text-transform: uppercase;
+	background-color: rgb(34,139,237);
+	color: white;
+	width:200px;
+	margin-top: -10px;
+}
+
+.next-button {
+	color:white;
+	background-color:rgb(34,139,237);
+	font-family:Arimo, sans-serif;
+}
